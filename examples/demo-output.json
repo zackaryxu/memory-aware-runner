@@ -1,0 +1,6 @@
+{
+  "jobs_completed": 5,
+  "peak_concurrent_jobs": 2,
+  "jobs_held_during_critical_pressure": 5,
+  "pressure_source": "simulated critical, then normal"
+}
