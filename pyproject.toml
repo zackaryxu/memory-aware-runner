@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "memory-aware-runner"
+version = "0.1.0"
+description = "Memory-aware admission control for command-line workloads on macOS"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
+readme = "README.md"
+dependencies = []
+
+[project.scripts]
+memory-runner = "memory_runner.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
